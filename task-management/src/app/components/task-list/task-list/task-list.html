@@ -1,0 +1,8 @@
+<h1>Que se passe t elle donc ?</h1>
+
+<div class="container">
+    <div *ngFor="let task of tasks(); let index">
+        <span>{{task.libelle}}</span>
+        <span>{{task.priority}}</span>
+    </div>
+</div>
